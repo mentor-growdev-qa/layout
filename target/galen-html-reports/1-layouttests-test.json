@@ -1,0 +1,362 @@
+{
+  "testId" : "1-layouttests-test",
+  "name" : "LayoutTests#test",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout src/test/java/specs/growdevspec.spec",
+      "status" : "error",
+      "time" : 1680137363595,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Growdev Page",
+        "place" : {
+          "filePath" : "src/test/java/specs/growdevspec.spec",
+          "lineNumber" : 12
+        },
+        "objects" : [ {
+          "name" : "image",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 15
+            },
+            "name" : "width 529px",
+            "meta" : [ {
+              "from" : {
+                "object" : "image",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "image",
+                "edge" : "right"
+              },
+              "expectedDistance" : "529px",
+              "realDistance" : "529px"
+            } ],
+            "highlight" : [ "image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 16
+            },
+            "name" : "height 529px",
+            "meta" : [ {
+              "from" : {
+                "object" : "image",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "image",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "529px",
+              "realDistance" : "529px"
+            } ],
+            "highlight" : [ "image" ]
+          } ]
+        }, {
+          "name" : "title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 18
+            },
+            "name" : "css font-family starts \"Poppins\"",
+            "highlight" : [ "title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 19
+            },
+            "name" : "css font-size is \"60px\"",
+            "highlight" : [ "title" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 20
+            },
+            "name" : "css font-weight is \"bold\"",
+            "errors" : [ "\"title\" css property \"font-weight\" is \"700\" but should be \"bold\"" ],
+            "highlight" : [ "title" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 21
+            },
+            "name" : "css line-height is \"1.2\"",
+            "errors" : [ "\"title\" css property \"line-height\" is \"72px\" but should be \"1.2\"" ],
+            "highlight" : [ "title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 22
+            },
+            "name" : "css color is \"rgba(43, 56, 91, 1)\"",
+            "highlight" : [ "title" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 23
+            },
+            "name" : "above description 20px",
+            "errors" : [ "\"title\" is 35px above \"description\" instead of 20px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "title",
+                "edge" : "bottom"
+              },
+              "to" : {
+                "object" : "description",
+                "edge" : "top"
+              },
+              "expectedDistance" : "20px",
+              "realDistance" : "35px"
+            } ],
+            "highlight" : [ "title", "description" ]
+          } ]
+        }, {
+          "name" : "description",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 25
+            },
+            "name" : "css font-family starts \"Poppins\"",
+            "highlight" : [ "description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 26
+            },
+            "name" : "css font-size is \"18px\"",
+            "highlight" : [ "description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 27
+            },
+            "name" : "css font-weight is \"400\"",
+            "highlight" : [ "description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 28
+            },
+            "name" : "css line-height is \"36px\"",
+            "highlight" : [ "description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 29
+            },
+            "name" : "css color is \"rgba(129, 134, 138, 1)\"",
+            "highlight" : [ "description" ]
+          } ]
+        }, {
+          "name" : "second_card_text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-family starts \"Poppins\"",
+            "highlight" : [ "second_card_text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-size is \"20px\"",
+            "highlight" : [ "second_card_text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css font-weight is \"500\"",
+            "highlight" : [ "second_card_text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css line-height is \"34px\"",
+            "highlight" : [ "second_card_text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 35
+            },
+            "name" : "css color is \"rgba(43, 56, 91, 1)\"",
+            "highlight" : [ "second_card_text" ]
+          } ]
+        }, {
+          "name" : "second_card_icon",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 37
+            },
+            "name" : "width 64px",
+            "meta" : [ {
+              "from" : {
+                "object" : "second_card_icon",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "second_card_icon",
+                "edge" : "right"
+              },
+              "expectedDistance" : "64px",
+              "realDistance" : "64px"
+            } ],
+            "highlight" : [ "second_card_icon" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 38
+            },
+            "name" : "height 64px",
+            "meta" : [ {
+              "from" : {
+                "object" : "second_card_icon",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "second_card_icon",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "64px",
+              "realDistance" : "64px"
+            } ],
+            "highlight" : [ "second_card_icon" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 39
+            },
+            "name" : "css padding-right is \"15px\"",
+            "errors" : [ "\"second_card_icon\" css property \"padding-right\" is \"0px\" but should be \"15px\"" ],
+            "highlight" : [ "second_card_icon" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 40
+            },
+            "name" : "left-of second_card_text 15px",
+            "meta" : [ {
+              "from" : {
+                "object" : "second_card_icon",
+                "edge" : "right"
+              },
+              "to" : {
+                "object" : "second_card_text",
+                "edge" : "left"
+              },
+              "expectedDistance" : "15px",
+              "realDistance" : "15px"
+            } ],
+            "highlight" : [ "second_card_icon", "second_card_text" ]
+          } ]
+        }, {
+          "name" : "button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 42
+            },
+            "name" : "css font-family starts \"Poppins\"",
+            "highlight" : [ "button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 43
+            },
+            "name" : "css font-size is \"15px\"",
+            "highlight" : [ "button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 44
+            },
+            "name" : "css font-weight is \"bold\"",
+            "errors" : [ "\"button\" css property \"font-weight\" is \"700\" but should be \"bold\"" ],
+            "highlight" : [ "button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 45
+            },
+            "name" : "css line-height is \"34px\"",
+            "highlight" : [ "button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 46
+            },
+            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "lineNumber" : 47
+            },
+            "name" : "css background-color is \"rgba(225, 110, 14, 1)\"",
+            "highlight" : [ "button" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "button" : {
+          "area" : [ 77, 1249, 217, 77 ]
+        },
+        "image" : {
+          "area" : [ 658, 814, 529, 529 ]
+        },
+        "second_card_icon" : {
+          "area" : [ 367, 1133, 64, 64 ]
+        },
+        "description" : {
+          "area" : [ 77, 978, 540, 108 ]
+        },
+        "title" : {
+          "area" : [ 77, 799, 540, 144 ]
+        },
+        "second_card_text" : {
+          "area" : [ 446, 1131, 171, 68 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
