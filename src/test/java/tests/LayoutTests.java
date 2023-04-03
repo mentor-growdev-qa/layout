@@ -1,6 +1,7 @@
 package tests;
 
 import com.galenframework.testng.GalenTestNgTestBase;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,7 +15,7 @@ public class LayoutTests extends GalenTestNgTestBase {
 
     @Override
     public WebDriver createDriver(Object[] objects) {
-        System.setProperty("webdriver.chrome.driver", "/Users/williamsoares/Documents/chromedriver");
+        WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-debugging-port=9222");
         chromeOptions.addArguments("--no-sandbox");
