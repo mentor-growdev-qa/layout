@@ -24,7 +24,7 @@ public class LayoutTests extends GalenTestNgTestBase {
 
     @Test
     public void test() throws IOException {
-        load("https://www.growdev.com.br/", 1280, 1000);
+        load("https://www.growdev.com.br/", 1280, 2000);
         checkLayout("src/test/java/specs/growdevspec.spec", asList("desktop"));
     }
 

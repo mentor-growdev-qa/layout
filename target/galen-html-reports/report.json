@@ -1,8 +1,8 @@
 {
   "tests" : [ {
     "name" : "LayoutTests#test",
-    "startedAt" : 1680137348681,
-    "endedAt" : 1680137363627,
+    "startedAt" : 1680526163662,
+    "endedAt" : 1680526173137,
     "failed" : true,
     "statistic" : {
       "passed" : 23,
@@ -11,7 +11,7 @@
       "total" : 28
     },
     "testId" : "1-layouttests-test",
-    "duration" : 14946,
+    "duration" : 9475,
     "failed" : true
   } ]
 }

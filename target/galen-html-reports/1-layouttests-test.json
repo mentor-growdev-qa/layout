@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout src/test/java/specs/growdevspec.spec",
       "status" : "error",
-      "time" : 1680137363595,
+      "time" : 1680526173124,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
@@ -23,18 +23,6 @@
               "lineNumber" : 15
             },
             "name" : "width 529px",
-            "meta" : [ {
-              "from" : {
-                "object" : "image",
-                "edge" : "left"
-              },
-              "to" : {
-                "object" : "image",
-                "edge" : "right"
-              },
-              "expectedDistance" : "529px",
-              "realDistance" : "529px"
-            } ],
             "highlight" : [ "image" ]
           }, {
             "status" : "info",
@@ -43,18 +31,6 @@
               "lineNumber" : 16
             },
             "name" : "height 529px",
-            "meta" : [ {
-              "from" : {
-                "object" : "image",
-                "edge" : "top"
-              },
-              "to" : {
-                "object" : "image",
-                "edge" : "bottom"
-              },
-              "expectedDistance" : "529px",
-              "realDistance" : "529px"
-            } ],
             "highlight" : [ "image" ]
           } ]
         }, {
@@ -109,18 +85,6 @@
             },
             "name" : "above description 20px",
             "errors" : [ "\"title\" is 35px above \"description\" instead of 20px" ],
-            "meta" : [ {
-              "from" : {
-                "object" : "title",
-                "edge" : "bottom"
-              },
-              "to" : {
-                "object" : "description",
-                "edge" : "top"
-              },
-              "expectedDistance" : "20px",
-              "realDistance" : "35px"
-            } ],
             "highlight" : [ "title", "description" ]
           } ]
         }, {
@@ -218,18 +182,6 @@
               "lineNumber" : 37
             },
             "name" : "width 64px",
-            "meta" : [ {
-              "from" : {
-                "object" : "second_card_icon",
-                "edge" : "left"
-              },
-              "to" : {
-                "object" : "second_card_icon",
-                "edge" : "right"
-              },
-              "expectedDistance" : "64px",
-              "realDistance" : "64px"
-            } ],
             "highlight" : [ "second_card_icon" ]
           }, {
             "status" : "info",
@@ -238,18 +190,6 @@
               "lineNumber" : 38
             },
             "name" : "height 64px",
-            "meta" : [ {
-              "from" : {
-                "object" : "second_card_icon",
-                "edge" : "top"
-              },
-              "to" : {
-                "object" : "second_card_icon",
-                "edge" : "bottom"
-              },
-              "expectedDistance" : "64px",
-              "realDistance" : "64px"
-            } ],
             "highlight" : [ "second_card_icon" ]
           }, {
             "status" : "error",
@@ -267,18 +207,6 @@
               "lineNumber" : 40
             },
             "name" : "left-of second_card_text 15px",
-            "meta" : [ {
-              "from" : {
-                "object" : "second_card_icon",
-                "edge" : "right"
-              },
-              "to" : {
-                "object" : "second_card_text",
-                "edge" : "left"
-              },
-              "expectedDistance" : "15px",
-              "realDistance" : "15px"
-            } ],
             "highlight" : [ "second_card_icon", "second_card_text" ]
           } ]
         }, {
@@ -337,22 +265,22 @@
       } ],
       "objects" : {
         "button" : {
-          "area" : [ 77, 1249, 217, 77 ]
+          "area" : [ 85, 1249, 217, 77 ]
         },
         "image" : {
-          "area" : [ 658, 814, 529, 529 ]
+          "area" : [ 666, 814, 529, 529 ]
         },
         "second_card_icon" : {
-          "area" : [ 367, 1133, 64, 64 ]
+          "area" : [ 375, 1133, 64, 64 ]
         },
         "description" : {
-          "area" : [ 77, 978, 540, 108 ]
+          "area" : [ 85, 978, 540, 108 ]
         },
         "title" : {
-          "area" : [ 77, 799, 540, 144 ]
+          "area" : [ 85, 799, 540, 144 ]
         },
         "second_card_text" : {
-          "area" : [ 446, 1131, 171, 68 ]
+          "area" : [ 454, 1131, 171, 68 ]
         }
       },
       "screenshot" : "layout-1-screenshot.png",
