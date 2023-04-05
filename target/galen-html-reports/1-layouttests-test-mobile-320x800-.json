@@ -1,0 +1,17 @@
+{
+  "testId" : "1-layouttests-test-mobile-320x800-",
+  "name" : "LayoutTests#test (mobile 320x800)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout src/test/java/specs/growdevspec.spec",
+      "status" : "info",
+      "time" : 1680732955563,
+      "includedTags" : [ "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

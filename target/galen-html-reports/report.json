@@ -1,8 +1,36 @@
 {
   "tests" : [ {
-    "name" : "LayoutTests#test",
-    "startedAt" : 1680530647121,
-    "endedAt" : 1680530656404,
+    "name" : "LayoutTests#test (mobile 320x800)",
+    "startedAt" : 1680732944553,
+    "endedAt" : 1680732955579,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "1-layouttests-test-mobile-320x800-",
+    "duration" : 11026,
+    "failed" : false
+  }, {
+    "name" : "LayoutTests#test (tablet 768x800)",
+    "startedAt" : 1680732960668,
+    "endedAt" : 1680732969881,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "2-layouttests-test-tablet-768x800-",
+    "duration" : 9213,
+    "failed" : false
+  }, {
+    "name" : "LayoutTests#test (desktop 1280x800)",
+    "startedAt" : 1680732975444,
+    "endedAt" : 1680732984729,
     "failed" : true,
     "statistic" : {
       "passed" : 23,
@@ -10,8 +38,8 @@
       "warnings" : 0,
       "total" : 28
     },
-    "testId" : "1-layouttests-test",
-    "duration" : 9283,
+    "testId" : "3-layouttests-test-desktop-1280x800-",
+    "duration" : 9285,
     "failed" : true
   } ]
 }

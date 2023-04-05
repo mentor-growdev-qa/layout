@@ -1,11 +1,11 @@
 {
-  "testId" : "1-layouttests-test",
-  "name" : "LayoutTests#test",
+  "testId" : "3-layouttests-test-desktop-1280x800-",
+  "name" : "LayoutTests#test (desktop 1280x800)",
   "report" : {
     "nodes" : [ {
       "name" : "Check layout src/test/java/specs/growdevspec.spec",
       "status" : "error",
-      "time" : 1680530656376,
+      "time" : 1680732984706,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
@@ -283,7 +283,7 @@
           "area" : [ 454, 1131, 171, 68 ]
         }
       },
-      "screenshot" : "layout-1-screenshot.png",
+      "screenshot" : "layout-3-screenshot.png",
       "type" : "layout"
     } ]
   }
