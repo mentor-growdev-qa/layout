@@ -1,0 +1,251 @@
+{
+  "testId" : "1-layouttests-test-mobile-320x2000-",
+  "name" : "LayoutTests#test (mobile 320x2000)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout src/test/java/specs/petz/petz_desktop.spec",
+      "status" : "error",
+      "time" : 1680742160189,
+      "includedTags" : [ "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Petz Mobile",
+        "place" : {
+          "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+          "lineNumber" : 34
+        },
+        "objects" : [ {
+          "name" : "input",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 37
+            },
+            "name" : "css background-color is \"rgba(255, 255, 255, 1)\"",
+            "errors" : [ "\"input\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 38
+            },
+            "name" : "css color is \"rgba(116, 116, 116, 1)\"",
+            "errors" : [ "\"input\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 39
+            },
+            "name" : "css line-height is \"21px\"",
+            "errors" : [ "\"input\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 40
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"input\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 41
+            },
+            "name" : "css font-weight is \"400\"",
+            "errors" : [ "\"input\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 42
+            },
+            "name" : "css border-radius is \"5px\"",
+            "errors" : [ "\"input\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 43
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "errors" : [ "\"input\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "first_card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 45
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "first_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 46
+            },
+            "name" : "css border-radius is \".25rem\"",
+            "errors" : [ "\"first_card\" css property \"border-radius\" is \"4px\" but should be \".25rem\"" ],
+            "highlight" : [ "first_card" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 47
+            },
+            "name" : "height 82px",
+            "highlight" : [ "first_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 48
+            },
+            "name" : "css width is \"44%\"",
+            "errors" : [ "\"first_card\" css property \"width\" is \"214.719px\" but should be \"44%\"" ],
+            "highlight" : [ "first_card" ]
+          } ]
+        }, {
+          "name" : "second_card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 45
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "second_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 46
+            },
+            "name" : "css border-radius is \".25rem\"",
+            "errors" : [ "\"second_card\" css property \"border-radius\" is \"4px\" but should be \".25rem\"" ],
+            "highlight" : [ "second_card" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 47
+            },
+            "name" : "height 82px",
+            "highlight" : [ "second_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 48
+            },
+            "name" : "css width is \"44%\"",
+            "errors" : [ "\"second_card\" css property \"width\" is \"214.719px\" but should be \"44%\"" ],
+            "highlight" : [ "second_card" ]
+          } ]
+        }, {
+          "name" : "third_card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 45
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "third_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 46
+            },
+            "name" : "css border-radius is \".25rem\"",
+            "errors" : [ "\"third_card\" css property \"border-radius\" is \"4px\" but should be \".25rem\"" ],
+            "highlight" : [ "third_card" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 47
+            },
+            "name" : "height 82px",
+            "highlight" : [ "third_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 48
+            },
+            "name" : "css width is \"44%\"",
+            "errors" : [ "\"third_card\" css property \"width\" is \"214.719px\" but should be \"44%\"" ],
+            "highlight" : [ "third_card" ]
+          } ]
+        }, {
+          "name" : "fourth_card",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 45
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "fourth_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 46
+            },
+            "name" : "css border-radius is \".25rem\"",
+            "errors" : [ "\"fourth_card\" css property \"border-radius\" is \"4px\" but should be \".25rem\"" ],
+            "highlight" : [ "fourth_card" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 47
+            },
+            "name" : "height 82px",
+            "highlight" : [ "fourth_card" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_mobile.spec",
+              "lineNumber" : 48
+            },
+            "name" : "css width is \"44%\"",
+            "errors" : [ "\"fourth_card\" css property \"width\" is \"214.719px\" but should be \"44%\"" ],
+            "highlight" : [ "fourth_card" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "second_card" : {
+          "area" : [ 244, 1300, 215, 82 ]
+        },
+        "third_card" : {
+          "area" : [ 25, 1386, 215, 82 ]
+        },
+        "first_card" : {
+          "area" : [ 25, 1300, 215, 82 ]
+        },
+        "fourth_card" : {
+          "area" : [ 244, 1386, 215, 82 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,22 +1,22 @@
 {
   "tests" : [ {
-    "name" : "LayoutTests#test (mobile 320x800)",
-    "startedAt" : 1680737021520,
-    "endedAt" : 1680737031103,
-    "failed" : false,
+    "name" : "LayoutTests#test (mobile 320x2000)",
+    "startedAt" : 1680742131639,
+    "endedAt" : 1680742160225,
+    "failed" : true,
     "statistic" : {
-      "passed" : 0,
-      "errors" : 0,
+      "passed" : 8,
+      "errors" : 15,
       "warnings" : 0,
-      "total" : 0
+      "total" : 23
     },
-    "testId" : "1-layouttests-test-mobile-320x800-",
-    "duration" : 9583,
-    "failed" : false
+    "testId" : "1-layouttests-test-mobile-320x2000-",
+    "duration" : 28586,
+    "failed" : true
   }, {
-    "name" : "LayoutTests#test (tablet 900x800)",
-    "startedAt" : 1680737032487,
-    "endedAt" : 1680737040646,
+    "name" : "LayoutTests#test (tablet 768x800)",
+    "startedAt" : 1680742165911,
+    "endedAt" : 1680742193349,
     "failed" : false,
     "statistic" : {
       "passed" : 0,
@@ -24,22 +24,22 @@
       "warnings" : 0,
       "total" : 0
     },
-    "testId" : "2-layouttests-test-tablet-900x800-",
-    "duration" : 8159,
+    "testId" : "2-layouttests-test-tablet-768x800-",
+    "duration" : 27438,
     "failed" : false
   }, {
     "name" : "LayoutTests#test (desktop 1280x800)",
-    "startedAt" : 1680737041995,
-    "endedAt" : 1680737051521,
+    "startedAt" : 1680742199635,
+    "endedAt" : 1680742233802,
     "failed" : true,
     "statistic" : {
-      "passed" : 0,
-      "errors" : 28,
+      "passed" : 44,
+      "errors" : 27,
       "warnings" : 0,
-      "total" : 28
+      "total" : 71
     },
     "testId" : "3-layouttests-test-desktop-1280x800-",
-    "duration" : 9526,
+    "duration" : 34167,
     "failed" : true
   } ]
 }

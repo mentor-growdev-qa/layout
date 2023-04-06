@@ -23,10 +23,10 @@ public class LayoutTests extends GalenTestBase {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        if (device.getTags().contains("mobile") || device.getTags().contains("tablet")){
-            getDriver().findElement(By.id("openMenuMobile")).click();
-        }
-        checkLayout("src/test/java/specs/growdevspec.spec", device.getTags());
+//        if (device.getTags().contains("mobile") || device.getTags().contains("tablet")){
+//            getDriver().findElement(By.id("openMenuMobile")).click();
+//        }
+        checkLayout("src/test/java/specs/petz/petz_desktop.spec", device.getTags());
     }
 
 }

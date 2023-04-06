@@ -26,7 +26,8 @@ public abstract class GalenTestBase extends GalenTestNgTestBase {
             if (args[0] != null && args[0] instanceof TestDevice) {
                 TestDevice device = (TestDevice) args[0];
                 if (device.getScreenSize() != null && (device.getTags().contains("mobile") || device.getTags().contains("tablet"))) {
-                    mobileEmulation.put("userAgent", "Mozilla/5.0 (Linux; Android 8.0.00; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/537.36");
+                    mobileEmulation.put("userAgent", "Mozilla/5.0 (Linux; Android 8.0.00; Pixel 2 XL Build/OPD1.170816.004)" +
+                            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36");
                     chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
                     driver = new ChromeDriver(chromeOptions);
                     driver.manage().window().setSize(device.getScreenSize());
@@ -46,8 +47,8 @@ public abstract class GalenTestBase extends GalenTestNgTestBase {
     @DataProvider(name = "devices")
     public Object[][] devices() {
         return new Object[][]{
-                {new TestDevice("mobile", new Dimension(320, 800), asList("mobile"))},
-                {new TestDevice("tablet", new Dimension(900, 800), asList("tablet"))},
+                {new TestDevice("mobile", new Dimension(320, 2000), asList("mobile"))},
+                {new TestDevice("tablet", new Dimension(768, 800), asList("tablet"))},
                 {new TestDevice("desktop", new Dimension(1280, 800), asList("desktop"))}
         };
     }

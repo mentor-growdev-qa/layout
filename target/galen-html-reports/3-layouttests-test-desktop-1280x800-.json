@@ -3,290 +3,685 @@
   "name" : "LayoutTests#test (desktop 1280x800)",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout src/test/java/specs/growdevspec.spec",
+      "name" : "Check layout src/test/java/specs/petz/petz_desktop.spec",
       "status" : "error",
-      "time" : 1680737051500,
+      "time" : 1680742233791,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
-        "name" : "Growdev Page",
+        "name" : "Loja Petz",
         "place" : {
-          "filePath" : "src/test/java/specs/growdevspec.spec",
-          "lineNumber" : 12
+          "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+          "lineNumber" : 18
         },
         "objects" : [ {
-          "name" : "image",
+          "name" : "input",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 15
-            },
-            "name" : "width 529px",
-            "errors" : [ "\"image\" is absent on page" ],
-            "highlight" : [ ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 16
-            },
-            "name" : "height 529px",
-            "errors" : [ "\"image\" is absent on page" ],
-            "highlight" : [ ]
-          } ]
-        }, {
-          "name" : "title",
-          "specs" : [ {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 18
-            },
-            "name" : "css font-family starts \"Poppins\"",
-            "errors" : [ "\"title\" is absent on page" ],
-            "highlight" : [ ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 19
-            },
-            "name" : "css font-size is \"60px\"",
-            "errors" : [ "\"title\" is absent on page" ],
-            "highlight" : [ ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 20
-            },
-            "name" : "css font-weight is \"bold\"",
-            "errors" : [ "\"title\" is absent on page" ],
-            "highlight" : [ ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 21
             },
-            "name" : "css line-height is \"1.2\"",
-            "errors" : [ "\"title\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css background-color is \"rgba(255, 255, 255, 1)\"",
+            "highlight" : [ "input" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 22
             },
-            "name" : "css color is \"rgba(43, 56, 91, 1)\"",
-            "errors" : [ "\"title\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css color is \"rgba(116, 116, 116, 1)\"",
+            "highlight" : [ "input" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 23
             },
-            "name" : "above description 20px",
-            "errors" : [ "\"title\" is absent on page" ],
-            "highlight" : [ ]
-          } ]
-        }, {
-          "name" : "description",
-          "specs" : [ {
-            "status" : "error",
+            "name" : "css line-height is \"21px\"",
+            "highlight" : [ "input" ]
+          }, {
+            "status" : "info",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 24
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "input" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 25
             },
-            "name" : "css font-family starts \"Poppins\"",
-            "errors" : [ "\"description\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css font-weight is \"400\"",
+            "highlight" : [ "input" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 26
             },
-            "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"description\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css border-radius is \"5px\"",
+            "highlight" : [ "input" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 27
             },
-            "name" : "css font-weight is \"400\"",
-            "errors" : [ "\"description\" is absent on page" ],
-            "highlight" : [ ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 28
-            },
-            "name" : "css line-height is \"36px\"",
-            "errors" : [ "\"description\" is absent on page" ],
-            "highlight" : [ ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 29
-            },
-            "name" : "css color is \"rgba(129, 134, 138, 1)\"",
-            "errors" : [ "\"description\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "input" ]
           } ]
         }, {
-          "name" : "second_card_text",
+          "name" : "nav_cats",
           "specs" : [ {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "errors" : [ "\"nav_cats\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 31
             },
-            "name" : "css font-family starts \"Poppins\"",
-            "errors" : [ "\"second_card_text\" is absent on page" ],
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"nav_cats\" is absent on page" ],
             "highlight" : [ ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 32
             },
-            "name" : "css font-size is \"20px\"",
-            "errors" : [ "\"second_card_text\" is absent on page" ],
+            "name" : "css font-weight is \"700\"",
+            "errors" : [ "\"nav_cats\" is absent on page" ],
             "highlight" : [ ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 33
             },
-            "name" : "css font-weight is \"500\"",
-            "errors" : [ "\"second_card_text\" is absent on page" ],
+            "name" : "css line-height is \"20px\"",
+            "errors" : [ "\"nav_cats\" is absent on page" ],
             "highlight" : [ ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 34
             },
-            "name" : "css line-height is \"34px\"",
-            "errors" : [ "\"second_card_text\" is absent on page" ],
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "errors" : [ "\"nav_cats\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav_birds",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "errors" : [ "\"nav_birds\" is absent on page" ],
             "highlight" : [ ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 35
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 31
             },
-            "name" : "css color is \"rgba(43, 56, 91, 1)\"",
-            "errors" : [ "\"second_card_text\" is absent on page" ],
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"nav_birds\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-weight is \"700\"",
+            "errors" : [ "\"nav_birds\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css line-height is \"20px\"",
+            "errors" : [ "\"nav_birds\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "errors" : [ "\"nav_birds\" is absent on page" ],
             "highlight" : [ ]
           } ]
         }, {
-          "name" : "second_card_icon",
+          "name" : "nav_dogs",
           "specs" : [ {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "errors" : [ "\"nav_dogs\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"nav_dogs\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-weight is \"700\"",
+            "errors" : [ "\"nav_dogs\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css line-height is \"20px\"",
+            "errors" : [ "\"nav_dogs\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "errors" : [ "\"nav_dogs\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav_cachorros",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "nav_cachorros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "nav_cachorros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-weight is \"700\"",
+            "highlight" : [ "nav_cachorros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css line-height is \"20px\"",
+            "highlight" : [ "nav_cachorros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "highlight" : [ "nav_cachorros" ]
+          } ]
+        }, {
+          "name" : "nav_gatos",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "nav_gatos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "nav_gatos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-weight is \"700\"",
+            "highlight" : [ "nav_gatos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css line-height is \"20px\"",
+            "highlight" : [ "nav_gatos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "highlight" : [ "nav_gatos" ]
+          } ]
+        }, {
+          "name" : "nav_passaros",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "nav_passaros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "nav_passaros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-weight is \"700\"",
+            "highlight" : [ "nav_passaros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css line-height is \"20px\"",
+            "highlight" : [ "nav_passaros" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "highlight" : [ "nav_passaros" ]
+          } ]
+        }, {
+          "name" : "nav_peixes",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "nav_peixes" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "nav_peixes" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-weight is \"700\"",
+            "highlight" : [ "nav_peixes" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css line-height is \"20px\"",
+            "highlight" : [ "nav_peixes" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "highlight" : [ "nav_peixes" ]
+          } ]
+        }, {
+          "name" : "nav_outros_pets",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "nav_outros_pets" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-size is \"14px\"",
+            "highlight" : [ "nav_outros_pets" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-weight is \"700\"",
+            "highlight" : [ "nav_outros_pets" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 33
+            },
+            "name" : "css line-height is \"20px\"",
+            "highlight" : [ "nav_outros_pets" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 34
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "highlight" : [ "nav_outros_pets" ]
+          } ]
+        }, {
+          "name" : "button_recebimento",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 36
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "button_recebimento" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 37
             },
-            "name" : "width 64px",
-            "errors" : [ "\"second_card_icon\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "button_recebimento" ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 38
             },
-            "name" : "height 64px",
-            "errors" : [ "\"second_card_icon\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css font-weight is \"700\"",
+            "errors" : [ "\"button_recebimento\" css property \"font-weight\" is \"400\" but should be \"700\"" ],
+            "highlight" : [ "button_recebimento" ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 39
             },
-            "name" : "css padding-right is \"15px\"",
-            "errors" : [ "\"second_card_icon\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css line-height is \"34px\"",
+            "errors" : [ "\"button_recebimento\" css property \"line-height\" is \"22.8571px\" but should be \"34px\"" ],
+            "highlight" : [ "button_recebimento" ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
               "lineNumber" : 40
             },
-            "name" : "left-of second_card_text 15px",
-            "errors" : [ "\"second_card_icon\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "errors" : [ "\"button_recebimento\" css property \"color\" is \"rgba(51, 51, 51, 1)\" but should be \"rgba(23, 94, 168, 1)\"" ],
+            "highlight" : [ "button_recebimento" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 41
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "button_recebimento" ]
           } ]
         }, {
-          "name" : "button",
+          "name" : "button_freteGratis",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 42
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 36
             },
-            "name" : "css font-family starts \"Poppins\"",
-            "errors" : [ "\"button\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "button_freteGratis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 37
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "button_freteGratis" ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 43
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 38
             },
-            "name" : "css font-size is \"15px\"",
-            "errors" : [ "\"button\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css font-weight is \"700\"",
+            "errors" : [ "\"button_freteGratis\" css property \"font-weight\" is \"400\" but should be \"700\"" ],
+            "highlight" : [ "button_freteGratis" ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 44
-            },
-            "name" : "css font-weight is \"bold\"",
-            "errors" : [ "\"button\" is absent on page" ],
-            "highlight" : [ ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 45
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 39
             },
             "name" : "css line-height is \"34px\"",
-            "errors" : [ "\"button\" is absent on page" ],
-            "highlight" : [ ]
+            "errors" : [ "\"button_freteGratis\" css property \"line-height\" is \"22.8571px\" but should be \"34px\"" ],
+            "highlight" : [ "button_freteGratis" ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 46
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 40
             },
-            "name" : "css color is \"rgba(255, 255, 255, 1)\"",
-            "errors" : [ "\"button\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "errors" : [ "\"button_freteGratis\" css property \"color\" is \"rgba(51, 51, 51, 1)\" but should be \"rgba(23, 94, 168, 1)\"" ],
+            "highlight" : [ "button_freteGratis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 41
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "button_freteGratis" ]
+          } ]
+        }, {
+          "name" : "button_parcelamento",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 36
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "button_parcelamento" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 37
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "button_parcelamento" ]
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "src/test/java/specs/growdevspec.spec",
-              "lineNumber" : 47
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 38
             },
-            "name" : "css background-color is \"rgba(225, 110, 14, 1)\"",
-            "errors" : [ "\"button\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "css font-weight is \"700\"",
+            "errors" : [ "\"button_parcelamento\" css property \"font-weight\" is \"400\" but should be \"700\"" ],
+            "highlight" : [ "button_parcelamento" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 39
+            },
+            "name" : "css line-height is \"34px\"",
+            "errors" : [ "\"button_parcelamento\" css property \"line-height\" is \"22.8571px\" but should be \"34px\"" ],
+            "highlight" : [ "button_parcelamento" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 40
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "errors" : [ "\"button_parcelamento\" css property \"color\" is \"rgba(51, 51, 51, 1)\" but should be \"rgba(23, 94, 168, 1)\"" ],
+            "highlight" : [ "button_parcelamento" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 41
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "button_parcelamento" ]
+          } ]
+        }, {
+          "name" : "button_retirenaloja",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 36
+            },
+            "name" : "css font-family starts \"CircularXX\"",
+            "highlight" : [ "button_retirenaloja" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 37
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "button_retirenaloja" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 38
+            },
+            "name" : "css font-weight is \"700\"",
+            "errors" : [ "\"button_retirenaloja\" css property \"font-weight\" is \"400\" but should be \"700\"" ],
+            "highlight" : [ "button_retirenaloja" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 39
+            },
+            "name" : "css line-height is \"34px\"",
+            "errors" : [ "\"button_retirenaloja\" css property \"line-height\" is \"22.8571px\" but should be \"34px\"" ],
+            "highlight" : [ "button_retirenaloja" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 40
+            },
+            "name" : "css color is \"rgba(23, 94, 168, 1)\"",
+            "errors" : [ "\"button_retirenaloja\" css property \"color\" is \"rgba(51, 51, 51, 1)\" but should be \"rgba(23, 94, 168, 1)\"" ],
+            "highlight" : [ "button_retirenaloja" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/test/java/specs/petz/petz_desktop.spec",
+              "lineNumber" : 41
+            },
+            "name" : "css background-color is \"rgba(245, 245, 245, 1)\"",
+            "highlight" : [ "button_retirenaloja" ]
           } ]
         } ]
       } ],
-      "objects" : { },
+      "objects" : {
+        "input" : {
+          "area" : [ 136, 57, 866, 45 ]
+        },
+        "button_freteGratis" : {
+          "area" : [ 328, 485, 298, 76 ]
+        },
+        "nav_cachorros" : {
+          "area" : [ 34, 127, 69, 30 ]
+        },
+        "nav_peixes" : {
+          "area" : [ 299, 127, 42, 30 ]
+        },
+        "button_parcelamento" : {
+          "area" : [ 642, 485, 298, 76 ]
+        },
+        "nav_passaros" : {
+          "area" : [ 208, 127, 58, 30 ]
+        },
+        "button_recebimento" : {
+          "area" : [ 15, 485, 298, 76 ]
+        },
+        "nav_outros_pets" : {
+          "area" : [ 374, 127, 78, 30 ]
+        },
+        "button_retirenaloja" : {
+          "area" : [ 955, 485, 298, 76 ]
+        },
+        "nav_gatos" : {
+          "area" : [ 136, 127, 39, 30 ]
+        }
+      },
       "screenshot" : "layout-3-screenshot.png",
       "type" : "layout"
     } ]

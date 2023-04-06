@@ -1,5 +1,17 @@
 {
   "testId" : "2-layouttests-test-tablet-768x800-",
   "name" : "LayoutTests#test (tablet 768x800)",
-  "report" : { }
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout src/test/java/specs/petz/petz_desktop.spec",
+      "status" : "info",
+      "time" : 1680742193341,
+      "includedTags" : [ "tablet" ],
+      "excludedTags" : [ ],
+      "sections" : [ ],
+      "objects" : { },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
 }
